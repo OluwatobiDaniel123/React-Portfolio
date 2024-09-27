@@ -1,6 +1,8 @@
 import React from "react";
 import Me from "../../Assets/me2.jpg";
-import port1 from "../../Assets/port1.png";
+import port1 from "../../Assets/port3.png";
+import port4 from "../../Assets/port4.png";
+
 import "./Portfolio.css";
 
 const data = [
@@ -9,8 +11,8 @@ const data = [
     title:
       "Developed a fully functional e-commerce platform to enhance online sales and customer experience.",
     tech_use: "React, Node.js, Express, MongoDB, Stripe API",
-    Github: "https://github.com",
-    Demo: "https://github.com",
+    Github: "https://github.com/OluwatobiDaniel123/E-commerce-Market/tree/main",
+    Demo: "https://e-commerce-market-plum.vercel.app/",
   },
   {
     image: <img src={Me} alt="img" />,
@@ -29,12 +31,12 @@ const data = [
     Demo: "https://github.com",
   },
   {
-    image: <img src={Me} alt="img" />,
+    image: <img src={port4} alt="img" />,
     title:
-      "Developed an expense tracker application to help users manage and track their daily expenses.",
+      "Developed an online banking with expense tracker application to help users manage and track their daily expenses.",
     tech_use: "React, Redux, Node.js, Express, MongoDB",
-    Github: "https://github.com",
-    Demo: "https://github.com",
+    Github: "https://github.com/OluwatobiDaniel123/easybanking",
+    Demo: "https://easybanking-six.vercel.app/",
   },
   {
     image: <img src={Me} alt="img" />,
